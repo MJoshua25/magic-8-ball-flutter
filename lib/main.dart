@@ -18,14 +18,15 @@ class ballWidget extends StatefulWidget {
 }
 
 class _ballWidgetState extends State<ballWidget> {
+
+
+
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Center(
-        child: Container(
-          child: Expanded(
-            child: Image.asset('images/ball1.png'),
-          ),
+        child: FlatButton(
+          child: Image.asset('images/ball1.png'),
         ),
       ),
     );
